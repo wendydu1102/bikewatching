@@ -1,0 +1,60 @@
+
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.time-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.filter-label {
+  font-weight: 600;
+}
+
+.time-filter input[type='range'] {
+  width: 300px;
+}
+
+.time-display {
+  text-align: right;
+  min-height: 1em;
+}
+
+#any-time {
+  font-style: italic;
+  color: #777;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.description {
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
